@@ -67,7 +67,7 @@ button:hover {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr;
+  grid-template-columns: 1.4fr 0.9fr;
   gap: 2rem;
   align-items: start;
   margin-bottom: 3rem;
@@ -79,6 +79,28 @@ button:hover {
   border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 32px;
   box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+}
+
+.hero-profile {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.profile-photo {
+  width: 100%;
+  border-radius: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.hero-card {
+  padding: 1.75rem;
+  border-radius: 32px;
+  background: white;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.06);
+  display: grid;
+  gap: 1rem;
 }
 
 .eyebrow {
